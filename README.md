@@ -33,6 +33,7 @@ A full-stack phishing simulation app that sends realistic phishing emails, track
 ```bash
 git clone https://github.com/vekaria04/phishing-simulation-tool.git
 cd phishing-simulation-tool
+```
 
 ### 2. Install Dependancies
 npm install
