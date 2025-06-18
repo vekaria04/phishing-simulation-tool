@@ -36,21 +36,29 @@ cd phishing-simulation-tool
 ```
 
 ### 2. Install Dependancies
+```bash
 npm install
+```
 
 ### 3. Environment Variables
 Create a .env file in the server/ directory:
+```bash
 MONGO_URI=mongodb://localhost:27017/phishingSim
 SMTP_USER=youremail@gmail.com
 SMTP_PASS=your_app_password
 BASE_URL=http://localhost:3000
+```
 ⚠️ Use App Passwords for Gmail SMTP — never use your actual Gmail password.
 
 ### 🗄️ Start MongoDB
+```bash
 mongod
+```
 
 ### ▶️ Run the Server
+```bash
 npm run dev
+```
 
 ### ✉️ Send a Test Email
 Open this in your browser:
